@@ -23,7 +23,6 @@ def nota_maxima(notas):
 
     nota_maxima([3, 9, 5]) -> 9
     """
-
     nota_max = 0
     for n in notas:
         if n > nota_max:
